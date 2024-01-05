@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Senpkeshtiの小筑</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-04-27T03:09:23.000Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Skei</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更新记录</title>
+    <link href="http://example.com/2021/02/24/Update-Diary/"/>
+    <id>http://example.com/2021/02/24/Update-Diary/</id>
+    <published>2021-02-24T07:55:44.000Z</published>
+    <updated>2021-04-27T03:09:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>开始使用安知鱼的DEMO</p>]]></content>
+    
+    
+    <summary type="html">截止2021年4月27日的更新内容</summary>
+    
+    
+    
+    <category term="生活日常" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="更新" scheme="http://example.com/tags/%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更新记录</title>
+    <link href="http://example.com/2021/02/24/Update-Diary2/"/>
+    <id>http://example.com/2021/02/24/Update-Diary2/</id>
+    <published>2021-02-24T07:55:44.000Z</published>
+    <updated>2021-04-27T03:09:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>逐步修复安知鱼的DEMO</p>]]></content>
+    
+    
+    <summary type="html">截止2021年4月27日的更新内容</summary>
+    
+    
+    
+    <category term="大学生涯" scheme="http://example.com/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B6%AF/"/>
+    
+    
+    <category term="更新" scheme="http://example.com/tags/%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>外挂标签引入</title>
+    <link href="http://example.com/2020/11/14/Tag-Plugins-Plus/"/>
+    <id>http://example.com/2020/11/14/Tag-Plugins-Plus/</id>
+    <published>2020-11-14T07:55:44.000Z</published>
+    <updated>2021-02-24T06:34:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>没开始学</p>]]></content>
+    
+    
+    <summary type="html">添加大量外挂标签样式。</summary>
+    
+    
+    
+    <category term="前端开发" scheme="http://example.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="theme" scheme="http://example.com/tags/theme/"/>
+    
+  </entry>
+  
+</feed>
