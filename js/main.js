@@ -1,3 +1,26 @@
+//视频背景数组
+var videosArray = [
+  "https://files.codelife.cc/itab/defaultWallpaper/videos/v-14.mp4", 
+  "https://files.codelife.cc/itab/defaultWallpaper/videos/56.mp4", 
+  "https://files.codelife.cc/itab/defaultWallpaper/videos/v-26.mp4", 
+  "https://files.codelife.cc/itab/defaultWallpaper/videos/26.mp4", 
+  "https://files.codelife.cc/itab/defaultWallpaper/videos/21.mp4", 
+  "https://files.codelife.cc/itab/defaultWallpaper/videos/28.mp4", 
+  "https://files.codelife.cc/itab/defaultWallpaper/videos/16.mp4", 
+  "https://files.codelife.cc/itab/defaultWallpaper/videos/17.mp4"
+];
+//图片背景数组
+var imgesArray = [
+  "https://cdn.cbd.int/naokuo-blog@1.2.9/img/posts/posts7.webp", 
+  "https://cdn.cbd.int/naokuo-blog@1.2.0/img/2023-09-09022337.webp", 
+  "https://cdn.cbd.int/naokuo-blog@1.2.0/img/2023-09-101438331.webp", 
+  "https://cdn.cbd.int/naokuo-blog@1.2.0/img/2023-09-141827337.webp", 
+  "https://cdn.cbd.int/naokuo-blog@1.2.9/img/posts/posts3.webp", 
+  "https://cdn.cbd.int/naokuo-blog@1.2.9/img/posts/posts4.webp", 
+  "https://cdn.cbd.int/naokuo-blog@1.2.9/img/posts/posts6.webp", 
+  "https://cdn.cbd.int/naokuo-blog@1.2.9/img/posts/posts7.webp", 
+  "https://cdn.cbd.int/naokuo-blog@1.2.9/img/posts/posts8.webp"
+];
 // 第一次播放音乐
 var anzhiyu_musicFirst = false;
 // 快捷键
@@ -1799,6 +1822,14 @@ document.addEventListener("DOMContentLoaded", function () {
     anzhiyu.getCustomPlayList();
     anzhiyu.addEventListenerConsoleMusicList(false);
     anzhiyu.initPaginationObserver();
+    // 背景滑动显掩
+    NaoKuo.BgScrollHide();
+    // 随机背景
+    NaoKuo.setVideosBG();
+    // 留言板页面弹幕
+    NaoKuo.naokuo_danmu();
+    // 欢迎信息
+    NaoKuo.getWelcome_info();
 
     setTimeout(() => {
       setInputFocusListener();
